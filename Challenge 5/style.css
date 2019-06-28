@@ -25,3 +25,8 @@ section div {
 label {
   padding-left: 10px;
 }
+
+input[type=checkbox]:checked + label {
+color: #f00;
+font-style: normal;
+} 
