@@ -1,0 +1,27 @@
+body {
+  background: lightgray;
+}
+
+main {
+  padding: 10px;
+  background: red;
+  /* height: 80vh */
+}
+
+h1 {
+  color: greenyellow;
+}
+
+section div {
+  background: lightgray;
+  margin: 10px;
+  position: relative;
+  padding: 10px;
+  Display: flex;
+  /* align-items: center; */
+
+}
+
+label {
+  padding-left: 10px;
+}
