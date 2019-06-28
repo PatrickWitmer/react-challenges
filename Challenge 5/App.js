@@ -15,6 +15,9 @@ function App() {
       <h1>Alchemy List</h1>
       
       <Ingredients />
+      <Ingredients />
+      <Ingredients />
+      <Ingredients />
       
     </main>
   )
