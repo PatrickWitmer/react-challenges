@@ -6,7 +6,7 @@ function Joke(props) {
 
   return (
     <section>
-      <p>{question ? 'Question: ' : ''}{props.joke.question}</p>
+      {question.length > 0 && <p>Question: {props.joke.question}</p>}
       <p>Punch Line: {props.joke.punchLine}</p>
     </section>
   )  
